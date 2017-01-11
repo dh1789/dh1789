@@ -1,0 +1,21 @@
+
+# Add conditions
+install dh1789.conditions
+start $?
+
+## Add behaviors
+#install dh1789.behaviors
+#start $?
+#
+## Add environments
+#install dh1789.environments
+#start $?
+#
+## Add tests
+install dh1789.test.ping
+start $?
+
+
+# Start the dh1789 bundle
+install dh1789.core
+start $?
