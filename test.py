@@ -68,13 +68,13 @@ class obj_given(object):
       self._plugin.run(self._plugin, self._argument)
 
 class obj_plugin(object):
-   def __init__(self):
+   def __init__():
        pass
 
 import pymysql
 
 class plugin_mysql(obj_plugin):
-   def __init__(self):
+   def __init__():
       obj_plugin.__init__()
       self._db = None
       self._query= ''
